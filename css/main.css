@@ -169,8 +169,13 @@ margin-left: 42em;
 
 }
 .right-section h1{font-size: 4em; margin: 0;}
-
-
+.right-section h3{font-size: 25px;
+    margin: 0;
+    padding-left: 8em;
+    padding-top: 22px;
+}
+.right-section h5{font-size: 19px;margin: 0; padding-left: 18em; padding-top: 8px;}
+.container1{}
 
 
 
