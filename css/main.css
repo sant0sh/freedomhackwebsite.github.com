@@ -152,10 +152,14 @@ display: -moz-inline-box;
 height: 6em;
 width: 100%;
 }
+.navbar-img{ height: 61px;
+    margin-left: -9em;
+    margin-top: 7px;
+    width: 75px;}
 .nav{
 display: inline-block;
     list-style-type: none;
-    width: 190px;
+    width: 210px;
 }
 .nav a{
 color: white;
