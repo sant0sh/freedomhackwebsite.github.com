@@ -190,7 +190,7 @@ margin-left: 3em;
 .container1{height: 20em;
     margin-left: 16em;
     margin-top: 23em;}
-.container2{    margin-left: 16em;
+.container2, .container4{    margin-left: 16em;
     margin-top: 12em;
 	width:50em;
 }
