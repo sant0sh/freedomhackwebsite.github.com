@@ -141,34 +141,34 @@ nav a:hover {
     height: 100%;
     left: 0;
     padding-top: 3em;
-    top: 0;}
-.header-section{
- background:black;
-    height: 5em;
-    padding-left: 15em;
-    padding-right: 11em;
-    width: 100%;
-	position:fixed;
-	top:0;
-	opacity:0.81;
-	z-index : 1030;
+    top: 0;
+	background-attachment : fixed;
 }
-.header-navigation{
-display: -webkit-inline-flex;
+.header-section{background: black;
+height: 5em;
+padding-left: 10em;
+padding-right: 11em;
+width: 100%;
+position: fixed;
+top: 0;
+opacity: 0.81;
+z-index: 1030;
+}
+.header-navigation{display: -webkit-inline-flex;
 display: -moz-inline-box;
 height: 6em;
 width: 100%;
-padding-left:25px;
+float : right;
+
 }
 .navbar-img{ height: 61px;
     margin-left: -9em;
     margin-top: 7px;
     width: 75px;}
-.nav{
-display: inline-block;
-    list-style-type: none;
-    padding-left: 79px;
-    width: 204px;
+.nav{display: inline-block;
+list-style-type: none;
+padding-left: 79px;
+width: 10em;
 }
 .nav a{
 color: white;
@@ -176,7 +176,7 @@ color: white;
     text-decoration: none;
 }
 .main-container{
-margin-left: 42em;
+margin-left: 55em;
     margin-top: 12em;
     width: 40em;
 }
@@ -202,11 +202,11 @@ width: 29em}
     margin-top: 12em;
 	width:50em;
 }
-.quote{color:white;}
 .container2 p{
 padding-left: 49px;
     padding-top: 27px;
     width: 43em;
+font-size:22px;
 }
 .static-logo{bottom: 6px; position: fixed;right: 7px; }
 .reg-button{background: none repeat scroll 0 0 #00FF7F;
@@ -218,7 +218,7 @@ padding-left: 49px;
     height: 53px;
     width: 9em;}
 .hackathon{height: auto;
-    padding-top: 4em;
+    padding-top: 2em;
     width: auto;
 }
 .datestime1{background: none repeat scroll 0 0 #D1D119;
@@ -230,7 +230,7 @@ padding-left: 49px;
 	background: none repeat scroll 0 0 #A37519;
 	height: 6em;
     margin-left: 17em;
-    margin-top: -112px;
+    margin-top: -118px;
     width: 30em;}
 .datestime2{background: none repeat scroll 0 0 #D1D119;
     height: 6em;
@@ -239,7 +239,7 @@ padding-left: 49px;
 .detail2{ background: none repeat scroll 0 0 #A37519;
     height: 6em;
     margin-left: 15em;
-    margin-top: -96px;
+    margin-top: -101px;
     width: 30em;}
 .datestime3{ background: none repeat scroll 0 0 #D1D119;
     height: 6em;
@@ -247,8 +247,8 @@ padding-left: 49px;
     width: 12em;}
 .details3{background: none repeat scroll 0 0 #A37519;
     height: 6em;
-    margin-left: 17em;
-    margin-top: -112px;
+    margin-left: 277px;
+    margin-top: -118px;
     width: 30em;}
 /* ==========================================================================
    Media Queries
