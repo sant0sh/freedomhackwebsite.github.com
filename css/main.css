@@ -136,6 +136,12 @@ nav a:hover {
     margin: 0 ;
 	height : 100%;
 }
+.wrapper1{ background-image: url("../img/backcover.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    left: 0;
+    padding-top: 3em;
+    top: 0;}
 .header-section{
  background:black;
     height: 5em;
@@ -145,6 +151,7 @@ nav a:hover {
 	position:fixed;
 	top:0;
 	opacity:0.81;
+	z-index : 1030;
 }
 .header-navigation{
 display: -webkit-inline-flex;
@@ -173,11 +180,11 @@ margin-left: 42em;
     width: 40em;
 }
 .right-section{
-margin-left: 3em;
+margin-left: -8em;
     margin-top: -21em;
 }
 .left-section{height: auto;
-margin-left: -31em;
+margin-left: -26em;
 margin-top: 14em;
 width: 29em}
 .right-section h1{font-size: 4em; margin: 0;}
@@ -209,7 +216,39 @@ padding-left: 49px;
     font-weight: 500;
     height: 53px;
     width: 9em;}
-
+.hackathon{height: auto;
+    padding-top: 4em;
+    width: auto;
+}
+.datestime1{background: none repeat scroll 0 0 #D1D119;
+    height: 6em;
+    padding-left: 36px;
+    width: 12em;
+}
+.detail1{
+	background: none repeat scroll 0 0 #A37519;
+	height: 6em;
+    margin-left: 17em;
+    margin-top: -112px;
+    width: 30em;}
+.datestime2{background: none repeat scroll 0 0 #D1D119;
+    height: 6em;
+    padding-left: 36px;
+    width: 12em;}
+.detail2{ background: none repeat scroll 0 0 #A37519;
+    height: 6em;
+    margin-left: 15em;
+    margin-top: -96px;
+    width: 30em;}
+.datestime3{ background: none repeat scroll 0 0 #D1D119;
+    height: 6em;
+    padding-left: 36px;
+    width: 12em;}
+.details3{background: none repeat scroll 0 0 #A37519;
+    height: 6em;
+    margin-left: 17em;
+    margin-top: -112px;
+    width: 30em;}
 /* ==========================================================================
    Media Queries
    ========================================================================== */
