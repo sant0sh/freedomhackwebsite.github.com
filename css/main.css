@@ -136,6 +136,10 @@ body{background:mintcream;}
     margin: 0 ;
 	height : 100%;
 }
+.active{}
+#up{
+display:none;
+}
 .header-section{background: black;
 height: 5em;
 padding-left: 10em;
