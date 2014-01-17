@@ -112,33 +112,9 @@ nav a:hover {
  body {
     background:mintcream;
 }
+.holder{}
 .wrapper {
     width: 90%;
-<<<<<<< HEAD
-    margin: 0 ;
-	height : 100%;
-}
-.active{}
-#up{
-display:none;
-}
-.header-section{background: black;
-height: 5em;
-padding-left: 10em;
-padding-right: 11em;
-width: 100%;
-position: fixed;
-top: 0;
-opacity: 0.81;
-z-index: 1030;
-}
-.header-navigation{display: -webkit-inline-flex;
-display: -moz-inline-box;
-height: 6em;
-width: 100%;
-float : right;
-
-=======
     height : 100%;
     margin-left: -11%;
     margin-right: -2%
@@ -158,9 +134,7 @@ float : right;
     display: -webkit-inline-flex;
     display: -moz-inline-box;
     height: 6em;
-    width: 100%;
-    float : right;
->>>>>>> ce6c424b464e0810bcf5fc13c22370e703425e69
+    width: auto;
 }
 .navbar-img {
     height: 61px;
@@ -171,8 +145,7 @@ float : right;
 .nav {
     display: inline-block;
     list-style-type: none;
-    padding-left: 79px;
-    width: 10em;
+    width: 13em;
 }
 .nav a {
     color: white;
@@ -180,9 +153,9 @@ float : right;
     text-decoration: none;
 }
 .main-container {
-    margin-left: 55em;
+    margin-left: 42em;
     margin-top: 12em;
-    width: 40em;
+    width: auto;
 }
 .right-section {
     margin-left: -20em;
@@ -209,14 +182,14 @@ float : right;
 }
 .container1 {
     height: 20em;
-    margin-left: 14em;
+    margin-left:0;
     margin-top: 8em;
-    width : 73em;
+    width :auto;
 }
 .container2 {
-    margin-left: 14em;
+    margin-left: 0;
     margin-top: 0;
-    width:50em;
+    width:auto;
 }
 .container2 p {
     padding-left: 12px;
@@ -478,19 +451,19 @@ float : right;
     width:100%;
     box-shadow: 10px 10px 5px #888888;
     border:1px solid #000000;
-    
+
     -moz-border-radius-bottomleft:0px;
     -webkit-border-bottom-left-radius:0px;
     border-bottom-left-radius:0px;
-    
+
     -moz-border-radius-bottomright:0px;
     -webkit-border-bottom-right-radius:0px;
     border-bottom-right-radius:0px;
-    
+
     -moz-border-radius-topright:0px;
     -webkit-border-top-right-radius:0px;
     border-top-right-radius:0px;
-    
+
     -moz-border-radius-topleft:0px;
     -webkit-border-top-left-radius:0px;
     border-top-left-radius:0px;
@@ -520,12 +493,12 @@ float : right;
     border-bottom-left-radius:0px;
 }.CSSTableGenerator tr:hover td{
     background-color:#d3e9ff;
-        
+
 
 }
 .CSSTableGenerator td{
     vertical-align:middle;
-        background:-o-linear-gradient(bottom, #ffffff 5%, #d3e9ff 100%);    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #d3e9ff) ); 
+        background:-o-linear-gradient(bottom, #ffffff 5%, #d3e9ff 100%);    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #d3e9ff) );
     background:-moz-linear-gradient( center top, #ffffff 5%, #d3e9ff 100% );
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#d3e9ff");  background: -o-linear-gradient(top,#ffffff,d3e9ff);
 
