@@ -242,6 +242,17 @@ font-size:22px;
     margin-left: 277px;
     margin-top: -118px;
     width: 30em;}
+/* custom fonts for the site */
+@font-face{
+font-family: header;
+src :url('../css/Coalition_v2..ttf');
+font-weight : bold;
+}
+@font-face{
+font-family: content;
+src :url('../css/onyx.ttf');
+font-weight : normal;
+}
 /* ==========================================================================
    Media Queries
    ========================================================================== */
