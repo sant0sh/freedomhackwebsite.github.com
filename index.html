@@ -2,38 +2,43 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
-        <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css">
-		    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-			<script>
-      function initialize() {
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script>
+    function initialize() {
         var map_canvas = document.getElementById('map_canvas');
         var map_options = {
-          center: new google.maps.LatLng(12.945007 , 77.696285),
-          zoom: 8,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
+            center: new google.maps.LatLng(12.945007, 77.696285),
+
+            mapTypeId: google.maps.MapTypeId.ROADMAP
         }
         var map = new google.maps.Map(map_canvas, map_options)
-      }
-      google.maps.event.addDomListener(window, 'load', initialize);
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
     </script>
 
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
 
+<<<<<<< HEAD
 		<div class="header-section">
 			<img src="./img/navbar.png" class="navbar-img" alt="navbar-image" />
 				<ul class="header-navigation">
@@ -156,14 +161,181 @@ We will shortlist the teams. You will hear from us by 3rd Feb, 2014.</p>
 </div>
 				        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+=======
+    <div class="header-section">
+        <img src="./img/navbar.png" class="navbar-img" alt="navbar-image" />
+        <ul class="header-navigation">
+            <li class="nav" id="about"><a class="jumper" href=".container1">About</a> 
+            </li>
+            <li class="nav" id="schedule"><a class="jumper" href="#guide">Guidelines</a>
+            </li>
+            <li class="nav" id="venue"><a class="jumper" href="#reg">Registration</a>
+            </li>
+            <li class="nav" id="rules"><a class="jumper" href="#venu">Venue</a>
+            </li>
+            <li class="nav" id="sponsors"><a class="jumper" href="#sched">Schedule</a>
+            </li>
+            <li class="nav" id="talks"><a class="jumper" href="#talk">Talks</a> 
+            </li>
+        </ul>
+            <div class="static-logo-media">
+            <a href="https://twitter.com/Freedom_Hack"><img src="./logo/twitter.png" alt="twitter-logo" style="height:60px;width:60px;bottom:1px;vertical-align: middle;"/></a>
+            <br>
+            <a href="https://www.facebook.com/freedomhack"><img src="./logo/fb1.png" alt="fb-logo" style="height:60px;width:60px;vertical-align: middle;" /></a>
+            </div>
 
-        <script src="js/main.js"></script>
+    </div>
+    <div class="wrapper">
+        <div class="main-container">
+            <div class="left-section">
+                <h2 style=" color: #56C8E3;font-size: 3em;letter-spacing: 35px;">FEB</h2>
+                <h1 style="color: #5F4F9B;font-size: 6em;letter-spacing: 16px;line-height: 42px;margin: 0;">8-9</h1>
+                <h3 style=" color: #56C8E3;font-size: 39px;letter-spacing: 15px;margin-left:15px;">2014</h3>
+                <h1 style="color: #000000;font-size: 3em;letter-spacing: 2px;line-height:
+      1em;margin: 0;width: 4em;margin-left:-10px;padding-left:9px;">Register &nbsp&nbspHere!</h1>
+            </div>
+            <div class="right-section">
+                <img class="background" src="./img/background.png" alt="header-image" />
+            </div>
+        </div>
+        <div class="static-logo">
+            <a href="http://www.inmobi.com"><img src="./img/inmobi.png" alt="inmobi-logo" style="height: 75px;vertical-align: middle;width: 150px;" /></a>
+        </div>
+        <div class="container1">
+            <h2 style="font-family: " Open Sans " ;">About Freedom Hack</h2>
+            <p style="font-size:20px;margin-left:0px;">"In spirit of making an open world, all the participants are encouraged to open source their hacks."</p>
+            <p style="font-size:20px;font-family:Open Sans;margin-left:0px;">To remember Aaron's work and support the courage he showed, InMobi is organizing the Bangalore chapter of Aaron Swartz Memorial Hackthon happening worldwide. So, join us in the 24 hours Freedom Hack and set yourself free to code, innovate and learn. Your hack can fall into the domains such as Social , Mobile , Analytics & Cloud. This is not the restrictive list. So, we have the theme O'SMAC, meaning Others, Social, Mobile and Cloud. Prize will be given to each category winner. You can also leverage the public datasets available like http://data.gov.in/ In spirit of making an open world, all the participants are encouraged to open source their hacks. For more details scroll down.</p>
+        </div>
+        <div class="container2">
+            <h2>About Aron Swartz</h2>
+            <p class="quote" style="margin-left: -56px; width: 57em;; content: " \ ";"><i>I’m a teenage kid who’s interested in improving the world (mostly through law, politics, and technology). - Aaron Swartz</i>
+            </p>
+            <p style="font-size: 20px;margin: 0 0 0 -16px;padding-left: -2px;width: 58em;">This was how Aaron described himself in 2004. Aaron Hillel Swartz (November 8, 1986 – January 11, 2013) was an American computer programmer, writer, political organizer and Internet activist. Swartz was involved in the development of the web feed format RSS,[5] the organization Creative Commons, the website framework web.py and the social news site, Reddit, in which he became a partner after its merger with his company, Infogami. Swartz's later work focused on sociology, civic awareness and activism. He helped launch the Progressive Change Campaign Committee in 2009 to learn more about effective online activism. In 2010 he became a research fellow at Harvard University's Safra Research Lab on Institutional Corruption, directed by Lawrence Lessig.He founded the online group Demand Progress, known for its campaign against theStop Online Piracy Act.
+            </p>
+        </div>
+        <div id="guide" class="container2" style="margin-top:4em;">
+            <h2>Guidelines</h2>
+            <h5 style="font-size: 23px; margin: 0;padding-left:0px;">General details</h5>
+            <p style="font-size: 20px;margin-left: -51px;padding-top: 0;">
+                - One person can only participate in one hack.
+                <br />- Team size should be minimum two and maximum four.
+                <br />- Every hack should be demo able. No power point will be accepted.
+                <br />- Every participant should be present in the InMobi premises for the event.
+                <br />
+            </p>
+            <h5 style="font-size:20px;padding-left:1px;">Registration guidelines.</h5>
+            <p style="font-size: 20px;margin-left: -49px;padding-top: 0;width: 33em;">
+                - Registrations are open till 31st Jan, 2014.
+                <br />- Team size is minimum 2 and maximum 4.
+                <br />- We will shortlist the teams and the confirmation to the selected teams will be sent by 3rd feb.</p>
+        </div>
+        <div id="reg" class="container2" style="margin-top:8em;">
+            <h2 style="margin-left:8px;">Registration</h2>
+            <div class="markup">
+                <p style="width:inherit;">Just fill in the details in the form below. We will shortlist the teams. You will hear from us by 3rd Feb, 2014.</p>
+                <div style="margin-left: 20em;margin-top: -4em;">
+                    <br><br><br>
+                    <input type="button" value="Register" class="reg-button" onclick="location.href='https://www.eventbrite.com/e/freedomhack-for-an-open-world-registration-10154611717?ref=ebtnebtckt'" />
+                </div>
+            </div>
+        </div>
 
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src='//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
-    </body>
+        <div id="venu" class="container2" style="margin-top:9em; left:20%;">
+            <div id="venue-map">
+                <h2>Venue</h2>
+                <p>InMobi, 7th Floor,<br> Delta Block,<br> Embassy Tech Square,<br> Marathalli-Sarjapur Outer Ring Road,<br> Bangalore</p>
+                <iframe style="float:right; clear:both;left:1%; width:637px; height:450px; margin:-29% -39% 0% 0%;" src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3888.5727895148366!2d77.69457355!3d12.9351566!3m2!1i1024!2i768!4f13.1!3m2!1m1!1s0x0%3A0xb34dc753d2faec7b!5e0!3m2!1sen!2sin!4v1389797118506" width="600" height="450" frameborder="0" style="border:0"></iframe>
+            </div>
+        </div>
+        <div id="sched" class="container2" style="margin-top:8em;">
+            <h2>Schedule</h2>
+            <div class="hackathon">
+                <br><br>
+                <h2>Hackathon</h2>
+                <div class="CSSTableGenerator" >
+                <table >
+                     <tr>
+                        <td >
+                            Timing
+                        </td>
+                        <td>
+                            Track
+                        </td>
+                    </tr>
+                    <tr>
+                    <tr>
+                        <td >
+                            8th Feb 2014 9:00 am
+                        </td>
+                        <td>
+                            Kick Off!!!
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            9th Feb 2014 9:00 am
+                        </td>
+                        <td>
+                            Hackathon Ends
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            9th Feb 2014 10:00 am
+                        </td>
+                        <td>
+                            Presentation of hacks.
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            
+                <!-- <table>
+                    <tr
+                </table>
+                <div class="datestime1">
+                    <p style="padding-left: 4px;padding-top: 27px;width: 43em;font-size: 22px;font-weight: bold;">8th Feb 2014</br>9:00 am</p>
+                </div>
+                <div class="detail1">
+                    <p style="font-size: 1em;font-weight: bold;padding-left: 67px;padding-top: 28px;width: 43em;">Kick Off!!</p>
+                </div>
+                <div class="datestime2">
+                    <p style="padding-left: 4px;padding-top: 27px;width: 43em;font-size: 22px;font-weight: bold;">9th Feb 2014</br>9:00 am</p>
+                    <div class="detail2">
+                        <p style="padding-left: 67px;padding-top: 28px;width: 43em;font-size: 22px;font-weight: bold;">Hackathon Ends</p>
+                    </div>
+                </div>
+                <div class="datestime3">
+                    <p style="padding-left: 4px;padding-top: 27px;width: 43em;font-size: 22px;font-weight: bold;">9th Feb 2014</br>10:00 am</p>
+                </div>
+                <div class="details3">
+                    <p style="padding-left: 67px;padding-top: 28px;width: 43em;font-size: 22px;font-weight: bold;">Presentation of ideas.</p>
+                </div>
+            </div> -->
+            <h3>Talks</h3>
+            <p style="padding-left: 67px;padding-top: 28px;width: 43em;font-size: 22px;font-weight: bold;">We will update soon on the talks!!</p>
+        </div>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')
+    </script>
+
+    <script src="js/main.js"></script>
+>>>>>>> ce6c424b464e0810bcf5fc13c22370e703425e69
+
+    <script>
+    var _gaq = [
+        ['_setAccount', 'UA-XXXXX-X'],
+        ['_trackPageview']
+    ];
+    (function(d, t) {
+        var g = d.createElement(t),
+            s = d.getElementsByTagName(t)[0];
+        g.src = '//www.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g, s)
+    }(document, 'script'));
+    </script>
+</body>
+
 </html>
